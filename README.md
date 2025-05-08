@@ -1,1 +1,1 @@
-# Basic-Spatial-Analysis
+# Basic Spatial Analysis
