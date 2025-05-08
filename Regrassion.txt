@@ -1,0 +1,41 @@
+>>04/07/2025 03:56:00 PM
+REGRESSION
+----------
+SUMMARY OF OUTPUT: ORDINARY LEAST SQUARES ESTIMATION
+Data set            :  tl_2023_27_bg
+Dependent Variable  :      AWATER  Number of Observations: 4706
+Mean dependent var  : 4.02411e+06  Number of Variables   :    4
+S.D. dependent var  : 7.06015e+07  Degrees of Freedom    : 4702 
+
+R-squared           :    0.029607  F-statistic           :     47.8203
+Adjusted R-squared  :    0.028988  Prob(F-statistic)     : 1.95197e-30
+Sum squared residual: 2.27629e+19  Log likelihood        :    -91656.3
+Sigma-square        : 4.84111e+15  Akaike info criterion :      183321
+S.E. of regression  : 6.95781e+07  Schwarz criterion     :      183346
+Sigma-square ML     :   4.837e+15
+S.E of regression ML: 6.95485e+07
+
+-----------------------------------------------------------------------------
+       Variable      Coefficient      Std.Error    t-Statistic   Probability
+-----------------------------------------------------------------------------
+          CONSTANT   2.78511e+08    1.01295e+08        2.74951     0.00599
+             ALAND     0.0547455     0.00738714        7.41092     0.00000
+           COORD_X   6.61889e+06    1.06667e+06        6.20522     0.00000
+           COORD_Y   7.57437e+06    1.13182e+06        6.69221     0.00000
+-----------------------------------------------------------------------------
+
+REGRESSION DIAGNOSTICS  
+MULTICOLLINEARITY CONDITION NUMBER   239.556206
+TEST ON NORMALITY OF ERRORS
+TEST                  DF           VALUE             PROB
+Jarque-Bera            2        1510258485.1890          0.00000
+
+DIAGNOSTICS FOR HETEROSKEDASTICITY  
+RANDOM COEFFICIENTS
+TEST                  DF           VALUE             PROB
+Breusch-Pagan test     3         42489.3327          0.00000
+Koenker-Bassett test   3            30.6172          0.00000
+============================== END OF REPORT ================================
+
+
+

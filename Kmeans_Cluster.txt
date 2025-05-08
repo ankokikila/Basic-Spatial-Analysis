@@ -1,0 +1,32 @@
+------
+Method:	KMeans
+Number of clusters:	5
+Initialization method:	KMeans++
+Initialization re-runs:	1000
+Maximum iterations:	1000
+Transformation:	Range Standardize
+Distance function:	Euclidean
+
+Cluster centers:
+|  |ALAND      |AWATER     |COORD_X |
+|--|-----------|-----------|--------|
+|C1|1.10081e+07|1.49016e+06|-93.4866|
+|C2|2.29935e+08|1.11574e+07|-94.485 |
+|C3|7.13637e+08|3.84853e+07|-94.8809|
+|C4|2.31348e+09|1.7425e+08 |-93.4594|
+|C5|0          |4.18524e+09|-90.2894|
+
+The total sum of squares:	8.50052
+Within-cluster sum of squares:
+|  |Within cluster S.S.|
+|--|-------------------|
+|C1|0.682052           |
+|C2|0.388217           |
+|C3|0.252262           |
+|C4|0.30924            |
+|C5|0                  |
+
+The total within-cluster sum of squares:	1.63177
+The between-cluster sum of squares:	6.86875
+The ratio of between to total sum of squares:	0.808039
+

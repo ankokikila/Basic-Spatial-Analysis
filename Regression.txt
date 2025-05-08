@@ -1,0 +1,40 @@
+>>04/07/2025 03:40:37 PM
+REGRESSION
+----------
+SUMMARY OF OUTPUT: ORDINARY LEAST SQUARES ESTIMATION
+Data set            :  tl_2023_27_bg
+Dependent Variable  :     COORD_X  Number of Observations: 4706
+Mean dependent var  :     -93.595  Number of Variables   :    3
+S.D. dependent var  :     1.00006  Degrees of Freedom    : 4703 
+
+R-squared           :    0.051946  F-statistic           :     128.843
+Adjusted R-squared  :    0.051542  Prob(F-statistic)     :           0
+Sum squared residual:     4462.12  Log likelihood        :    -6552.31
+Sigma-square        :    0.948781  Akaike info criterion :     13110.6
+S.E. of regression  :    0.974054  Schwarz criterion     :       13130
+Sigma-square ML     :    0.948176
+S.E of regression ML:    0.973743
+
+-----------------------------------------------------------------------------
+       Variable      Coefficient      Std.Error    t-Statistic   Probability
+-----------------------------------------------------------------------------
+          CONSTANT       -93.531      0.0148284       -6307.55     0.00000
+             ALAND  -1.54968e-09    9.80916e-11       -15.7983     0.00000
+            AWATER   9.71963e-10    2.02699e-10        4.79511     0.00000
+-----------------------------------------------------------------------------
+
+REGRESSION DIAGNOSTICS  
+MULTICOLLINEARITY CONDITION NUMBER   1.384233
+TEST ON NORMALITY OF ERRORS
+TEST                  DF           VALUE             PROB
+Jarque-Bera            2          1985.4202          0.00000
+
+DIAGNOSTICS FOR HETEROSKEDASTICITY  
+RANDOM COEFFICIENTS
+TEST                  DF           VALUE             PROB
+Breusch-Pagan test     2          1848.9817          0.00000
+Koenker-Bassett test   2           791.2905          0.00000
+============================== END OF REPORT ================================
+
+
+
